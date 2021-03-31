@@ -11,6 +11,10 @@ namespace DesignPatterns
         {
             Command = command;
         }
+        public Trainer()
+        {
+
+        }
 
         public void Train()
         {
