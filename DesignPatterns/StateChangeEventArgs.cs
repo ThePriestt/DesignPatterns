@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DesignPatterns
 {
-    class Spectator
+    public class StateChangeEventArgs : EventArgs
     {
+        public string StateText { get; set; }
     }
 }
